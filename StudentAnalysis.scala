@@ -22,6 +22,3 @@ object StudentAnalysis {
                 data.groupBy("Test_Preparation").agg(avg("Math_Score"),avg("Reading_Score"),avg("Writing_Score")).show();
         }
 }
-/*
-        Test.main(Array(null))
-*/
